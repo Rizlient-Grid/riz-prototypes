@@ -1,0 +1,13 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.9",
+  "base_commit_sha": "eb7429cc779d56f87a33f6b54d827b8ec8b1cbda",
+  "prompts": {},
+  "logical_commit_id": "eb7429cc779d56f87a33f6b54d827b8ec8b1cbda",
+  "humans": {
+    "h_b4153c87f08e2b": {
+      "author": "ohyusheng <humbleoh@gmail.com>"
+    }
+  }
+}
