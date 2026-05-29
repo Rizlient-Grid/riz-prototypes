@@ -1,0 +1,27 @@
+stm32h743vit6/Core/Src/main.c
+  h_b4153c87f08e2b 1-352
+stm32h743vit6/services/app_main.cpp
+  h_b4153c87f08e2b 1-36
+stm32h743vit6/services/uart1_bridge.cpp
+  h_b4153c87f08e2b 1-20
+stm32h743vit6/services/uart_hello.h
+  h_b4153c87f08e2b 1-8
+stm32h743vit6/services/led_blink.cpp
+  h_b4153c87f08e2b 1-13
+stm32h743vit6/services/uart_hello.cpp
+  h_b4153c87f08e2b 1-13
+stm32h743vit6/services/uart1_bridge.h
+  h_b4153c87f08e2b 1-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.12",
+  "base_commit_sha": "172a3117b74520856044c7e36590c629547d89ac",
+  "prompts": {},
+  "logical_commit_id": "37c677473749945a630f0529d70b5bc5a30ee913",
+  "humans": {
+    "h_b4153c87f08e2b": {
+      "author": "ohyusheng <humbleoh@gmail.com>"
+    }
+  }
+}
