@@ -81,6 +81,13 @@
         "unordered_set": "cpp",
         "__tree": "cpp",
         "map": "cpp",
-        "set": "cpp"
+        "set": "cpp",
+        "filesystem": "cpp",
+        "any": "cpp",
+        "iomanip": "cpp",
+        "condition_variable": "cpp",
+        "iostream": "cpp",
+        "ccomplex": "cpp",
+        "ctgmath": "cpp"
     }
 }

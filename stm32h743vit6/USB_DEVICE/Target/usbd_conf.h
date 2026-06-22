@@ -35,7 +35,10 @@
 #include "stm32h7xx_hal.h"
 
 /* USER CODE BEGIN INCLUDE */
-
+#define CDC_IN_EP       0x81U  /* CDC Data IN  */
+#define CDC_OUT_EP      0x01U  /* CDC Data OUT */
+#define CDC_CMD_EP      0x82U  /* CDC Command  */
+#define HID_EPIN_ADDR   0x83U  /* HID Data IN  */
 /* USER CODE END INCLUDE */
 
 /** @addtogroup USBD_OTG_DRIVER
@@ -63,7 +66,7 @@
   */
 
 /*---------- -----------*/
-#define USBD_MAX_NUM_INTERFACES     1U
+#define USBD_MAX_NUM_INTERFACES     3U
 /*---------- -----------*/
 #define USBD_MAX_NUM_CONFIGURATION     1U
 /*---------- -----------*/

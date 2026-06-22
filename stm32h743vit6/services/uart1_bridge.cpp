@@ -1,20 +1,20 @@
 #include "uart1_bridge.h"
-#include <riz/hal/uart.h>
+#include <riz/io/uart_service.h>
 
-extern riz::hal::uart g_uart1;
+extern riz::io::uart_service g_uart1_svc;
 
 void uart1_on_tx_complete_isr(void) {
-    g_uart1.on_transmit_complete_isr();
+    g_uart1_svc.on_tx_complete();
 }
 
 void uart1_on_rx_complete_isr(void) {
-    g_uart1.on_receive_complete_isr();
+    g_uart1_svc.on_rx_complete();
 }
 
 void uart1_on_rx_idle_isr(void) {
-    g_uart1.on_receive_idle_isr();
+    g_uart1_svc.on_rx_idle();
 }
 
 void uart1_on_error_isr(void) {
-    g_uart1.on_error_isr();
+    g_uart1_svc.on_rx_error();
 }
