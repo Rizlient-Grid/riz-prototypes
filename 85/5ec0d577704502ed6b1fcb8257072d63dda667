@@ -1,0 +1,19 @@
+stm32h743vit6/USB_DEVICE/App/usb_device.c
+  h_b4153c87f08e2b 68-69,78-83,87-88,90-99,101-105,112-121,123-134,136-138
+stm32h743vit6/USB_DEVICE/App/usbd_cdc_if.c
+  h_b4153c87f08e2b 25
+stm32h743vit6/services/app_main.cpp
+  h_b4153c87f08e2b 15-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "855ec0d577704502ed6b1fcb8257072d63dda667",
+  "prompts": {},
+  "logical_commit_id": "855ec0d577704502ed6b1fcb8257072d63dda667",
+  "humans": {
+    "h_b4153c87f08e2b": {
+      "author": "ohyusheng <humbleoh@gmail.com>"
+    }
+  }
+}
