@@ -1,0 +1,41 @@
+stm32h743vit6/services/app_main.cpp
+  s_da1afbc1665494::t_70910b70f3f276 19
+  s_da1afbc1665494::t_820ddaa3a530d7 38,68-75
+  h_b4153c87f08e2b 15-16
+stm32h743vit6/USB_DEVICE/Target/usbd_conf.h
+  s_b8c25ae7e30af3::t_e7c4085c9c51df 38-41
+stm32h743vit6/USB_DEVICE/App/usb_device.c
+  h_b4153c87f08e2b 68-69,78-83,87-88,90-99,101-105,112-121,123-134,136-138
+stm32h743vit6/USB_DEVICE/App/usbd_cdc_if.c
+  h_b4153c87f08e2b 25
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "e0074e435987ffac19f7ecae9737b5761dbd8aae",
+  "prompts": {},
+  "logical_commit_id": "54872f660d81894185394745476095b39b0e86df",
+  "humans": {
+    "h_b4153c87f08e2b": {
+      "author": "ohyusheng <humbleoh@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_b8c25ae7e30af3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ses_10fd6cd44ffek7mYU9NiiX6YPX",
+        "model": "unknown"
+      },
+      "human_author": "ohyusheng <humbleoh@gmail.com>"
+    },
+    "s_da1afbc1665494": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ses_10fd90c5dffeZDaRlVDsw0I81F",
+        "model": "unknown"
+      },
+      "human_author": "ohyusheng <humbleoh@gmail.com>"
+    }
+  }
+}
